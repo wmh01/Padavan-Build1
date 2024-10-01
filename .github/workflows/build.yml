@@ -97,7 +97,7 @@ on:
         description: 'String JSON list of plug-ins'
         required: true
         type: string
-        default: '{"ss":"y","v2ray":"n","xray":"y","trojan":"y","ssobfs":"y","smartdns":"y","vlmcsd":"y","ttyd":"n","iperf3":"n"}'
+        default: '{"ss":"y","v2ray":"y","xray":"y","trojan":"y","ssobfs":"y","smartdns":"y","vlmcsd":"y","ttyd":"y","iperf3":"y"}'
       customization:
         description: 'String JSON list of Customization'
         required: true
@@ -119,9 +119,9 @@ env:
   FIRMWARE_AUTHOR: TurBoTse
   FIRMWARE_BRANCH: main
   FIRMWARE_REPO: padavan
-  FIRMWARE_URL: https://github.com/TurBoTse/padavan.git
+  FIRMWARE_URL: https://github.com/wmh01/Padavan3.4.git
   TOOLCHAIN_ROOT: toolchain/toolchain-mipsel
-  TOOLCHAIN_URL: https://github.com/TurBoTse/padavan/releases/download/toolchain
+  TOOLCHAIN_URL: https://github.com/wmh01/Padavan3.4/tree/main/toolchain-mipsel
 jobs:
   build:
     runs-on: ubuntu-latest
