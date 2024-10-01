@@ -58,7 +58,7 @@ on:
         - WIA3300-10
         - WR1200JS
         - XY-C1
-        - ZTE-E8820S
+        - ZTE_E8820S
         - ZTE-E8820V2
         default: K2P
       toolchain:
