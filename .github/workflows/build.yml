@@ -116,12 +116,12 @@ on:
         description: 'Delete old workflow runs'
         default: true
 env:
-  FIRMWARE_AUTHOR: TurBoTse
+  FIRMWARE_AUTHOR: wmh01
   FIRMWARE_BRANCH: main
   FIRMWARE_REPO: padavan
   FIRMWARE_URL: https://github.com/wmh01/Padavan3.4.git
   TOOLCHAIN_ROOT: toolchain-mipsel/dl_toolchain
-  TOOLCHAIN_URL: https://github.com/wmh01/Padavan3.4/tree/main/toolchain-mipsel
+  TOOLCHAIN_URL: https://github.com/wmh01/Padavan3.4/toolchain-mipsel
 jobs:
   build:
     runs-on: ubuntu-latest
