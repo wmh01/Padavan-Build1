@@ -120,7 +120,7 @@ env:
   FIRMWARE_BRANCH: main
   FIRMWARE_REPO: padavan
   FIRMWARE_URL: https://github.com/wmh01/Padavan3.4.git
-  TOOLCHAIN_ROOT: toolchain/toolchain-mipsel
+  TOOLCHAIN_ROOT: toolchain-mipsel/dl_toolchain
   TOOLCHAIN_URL: https://github.com/wmh01/Padavan3.4/tree/main/toolchain-mipsel
 jobs:
   build:
